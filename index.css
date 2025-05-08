@@ -14,11 +14,13 @@
   
 }
 
-.tombol  {
+.tombol, .nama-gelas  {
   display: flex;
   justify-content: space-between;
   width: 30%;
 }
+
+
 
 .tombol > button {
   padding: 10px 15px;
