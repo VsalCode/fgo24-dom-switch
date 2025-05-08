@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10vh;
+  
+}
+
+.tombol  {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.tombol > button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.gelas {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.gelas > div {
+  border: 1px solid black;
+  height: 130px;
+  width: 100px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.kosong {
+  background-color: white;
+}
+
+.kopi{
+  background-color: #644A07;
+}
+
+.teh {
+  background-color: #BB3E00;
+}
+
+.gelas > div > .isi {
+  background-color: white;
+  width: 100%;
+  height: 50%;
+}
